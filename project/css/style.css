@@ -1,0 +1,119 @@
+#mainsheet{
+	margin: 90px 16% 100px 16%;
+	background-color: white;
+}
+.one_head{
+	padding: 20px 50px 0px 40px;
+	font-family:  Inter, sans-serif;
+	font-weight: bold;
+}
+.one_p{
+	padding: 0px 0px 0px 40px;
+	font-family: Inter, sans-serif;
+}
+.little_header{
+	padding: 20px 50px 0px 40px;
+	display: inline-block;			
+	font-family:  Inter, sans-serif;
+	font-weight: bold;
+}
+.name_div{
+	padding: 0px 0px 0px 40px;
+
+}
+.name_div input, select{
+	width: 200px;
+	height: 30px;
+}
+.radio_div{
+	padding: 0px 0px 0px 40px;	
+}
+.address_div{
+	padding: 0px 0px 0px 40px;
+}
+.address_div input{
+	width: 80%;
+	height: 30px;	
+}
+.address_div2{
+	padding: 0px 0px 0px 40px;
+}
+.address_div2 input{
+	width: 40%;
+	height: 30px;	
+}
+.input_size{
+	padding: 0px 40px 0px 40px;
+	width: 80%;
+	height: 30px;
+}
+.little_header2{
+	display: inline-block;		
+	text-align: right;
+	padding-left: 80px;
+	font-family:  Inter, sans-serif;
+	font-weight: bold;
+}
+.email-tel{
+	padding: 0px 0px 0px 40px;
+}
+.email-tel input{
+	width: 30%;
+	height: 30px;
+}
+.selection-two{
+	padding: 0px 0px 0px 40px;
+}
+.selection-two select{
+	width: 35%;
+	height: 30px;
+}
+table{
+        border-collapse: collapse;
+        margin-left: 40px;
+        border: 1px solid black;		
+        text-align: center;
+        width: 90%;
+        color: rgb(0, 0, 0);
+}
+
+th,td{
+        border: 1px solid black;
+        padding: 5px;
+    }
+.language-skills{
+	padding: 0px 0px 0px 40px;
+}
+
+.language-skills label{
+	font-size: 25px	;
+}
+#submit{
+	background-color: black;
+	color: white;
+	width: 150px;
+	height: 45px;
+	margin-left: 40%;
+	border-radius: 10px;	
+}
+@media screen and (min-width: 300px) {
+ #mainsheet{
+	margin: 90px 2% 100px 2%;
+	background-color: white;
+  }
+  
+
+
+}
+@media screen and (min-width: 700px) {
+ #mainsheet{
+	margin: 90px 15% 100px 15%;
+	background-color: white;
+  }
+  .little_header2{
+	display: inline-block;		
+	text-align: right;
+	padding-left: 220px;
+	font-family:  Inter, sans-serif;
+	font-weight: bold;
+}
